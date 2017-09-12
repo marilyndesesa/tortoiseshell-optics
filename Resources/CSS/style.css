@@ -55,6 +55,10 @@ body{
   color: white;
 }
 
+.header a:hover{
+  color: lightgray;
+}
+
 .banner{
   justify-content: flex-end;
   margin: auto;
@@ -75,12 +79,15 @@ body{
 }
 
 /* Call-out Images */
+.call-out-icons{
+  justify-content: space-around;
+}
+
 .icon{
   flex-direction: column;
   margin: 3rem;
   height: 8rem;
   width: 5rem;
-  justify-content: space-between;
   text-align: center;
   text-wrap: wrap;
   align-items: center;
