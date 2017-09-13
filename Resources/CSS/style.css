@@ -93,6 +93,11 @@ body{
   align-items: center;
 }
 
+.icon img:hover{
+  transition: all 200ms ease-in;
+  transform: scale(1.5);
+}
+
 .icon img{
   margin-bottom: 1rem;
   width: 5rem;
@@ -117,6 +122,11 @@ body{
   padding: 0.5rem 1.25rem;
   background-color: cadetblue;
   width: 10rem;
+  transition: width 3s;
+}
+
+.info-block h3:hover{
+  width: 100%;
 }
 
 /* Footer */
