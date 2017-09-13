@@ -19,7 +19,7 @@ body{
 }
 /* Header and Banner */
 .banner-image{
-  background-image: url('../images/main-banner.png');
+  background-image: url('../Images/main-banner.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
